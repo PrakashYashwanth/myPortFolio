@@ -1,0 +1,25 @@
+{
+  "name": "msspyashwanth-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My personal portfolio to host my details",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrakashYashwanth/myPortFolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "msspyashwanth"
+  ],
+  "author": "M S S PRAKASH YASHWANTH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrakashYashwanth/myPortFolio/issues"
+  },
+  "homepage": "https://github.com/PrakashYashwanth/myPortFolio#readme"
+}
