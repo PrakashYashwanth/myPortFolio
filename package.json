@@ -26,6 +26,9 @@
   },
   "homepage": "https://github.com/PrakashYashwanth/myPortFolio#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
     "html-webpack-plugin": "^5.5.3",
     "rimraf": "^5.0.1",
     "webpack": "^5.88.0",
