@@ -9,3 +9,5 @@ Referred [Blog](https://blog.logrocket.com/using-prettier-eslint-automate-format
 ESLint version `eslint: ^8.43.0`
 
 ESLint-Prettier plugin version `eslint-config-prettier: ^8.8.0`
+
+Adding **MIT License** command `npx license`
