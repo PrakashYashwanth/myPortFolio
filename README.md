@@ -11,3 +11,5 @@ ESLint version `eslint: ^8.43.0`
 ESLint-Prettier plugin version `eslint-config-prettier: ^8.8.0`
 
 Adding **MIT License** command `npx license`
+
+Configured commitlint
