@@ -40,5 +40,6 @@
 		"semi": ["error", "never"],
 		"indent": ["error", 2],
 		"comma-dangle": ["error", "never"]
-	}
+	},
+	"parser": "@babel/eslint-parser"
 }

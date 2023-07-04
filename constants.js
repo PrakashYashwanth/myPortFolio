@@ -1,5 +1,5 @@
 const constants = {
   PORT: 8080,
-  BUILD_PATH: "dist",
-};
-module.exports = constants;
+  BUILD_PATH: 'dist'
+}
+module.exports = constants
