@@ -29,7 +29,10 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
-	"plugins": ["eslint-plugin-react","eslint-plugin-prettier"],
+	"plugins": [
+		"eslint-plugin-react", //  Plugin for formatting react code
+		"eslint-plugin-prettier" // Plugin for formating JS code with pretiier
+	],
 	"rules": {
 		"prettier/prettier": [
 			"error",
@@ -41,5 +44,5 @@
 		"indent": ["error", 2],
 		"comma-dangle": ["error", "never"]
 	},
-	"parser": "@babel/eslint-parser"
+	"parser": "@babel/eslint-parser" // Using this to parse code which the default eslint parser (Espree) doesn't understand
 }

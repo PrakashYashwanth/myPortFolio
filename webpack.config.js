@@ -26,9 +26,9 @@ const webpackConfig = {
     rules: [
       {
         test: /\.jsx?$/,
-        exclude: /node_modules/,
+        exclude: /node_modules/, // Including node modules will cause the files in them to be bundled as well, which is redundant
         use: {
-          loader: 'babel-loader'
+          loader: 'babel-loader' // The default loader to load all js and jsx files
         }
       }
     ]
@@ -37,11 +37,11 @@ const webpackConfig = {
   plugins: [new HtmlWebpackPlugin({ template: './public/index.html' })], // Adding html plugin for the app
 
   devServer: {
-    open: true,
-    port: PORT
+    open: true, // Opens the localhost window in the terminal once webpack is served
+    port: PORT // Defining which port to use
   },
 
-  devtool: 'inline-source-map'
+  devtool: 'inline-source-map' // Generates source maps for our app, which makes debugging easy. Not advised for production code as it may affect the load time
 }
 
 module.exports = webpackConfig
