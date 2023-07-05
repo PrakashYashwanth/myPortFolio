@@ -19,3 +19,9 @@ Adding **MIT License** command `npx license`
 Configured commitlint, lint-staged, husky
 
 Follow [MigrationV4](https://typicode.github.io/husky/migrating-from-v4.html) guide to configure husky to v8
+
+Configured React 18 with webpack 5
+
+Follow [Integration](https://medium.com/@tharinduit16/react-18-with-webpack-5-project-setup-steps-a93b4e1aaa3b) blog for reference
+
+**Note** : The changes are not immediately reflected in the IDE, so it is suggested to close and open the IDE after setting up the whole configuration
