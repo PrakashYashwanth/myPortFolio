@@ -29,7 +29,7 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
-	"plugins": ["eslint-plugin-prettier"],
+	"plugins": ["eslint-plugin-react","eslint-plugin-prettier"],
 	"rules": {
 		"prettier/prettier": [
 			"error",

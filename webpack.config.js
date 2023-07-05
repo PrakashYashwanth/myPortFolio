@@ -7,7 +7,7 @@ const { PORT, BUILD_PATH } = require('./constants')
 const webpackConfig = {
   mode: 'development', // Working in development mode
 
-  entry: './src/index.js', // Entry point for our App
+  entry: './src/index.jsx', // Entry point for our App
 
   output: {
     path: path.resolve(__dirname, BUILD_PATH), // Path for our build folder
@@ -16,6 +16,10 @@ const webpackConfig = {
       name: 'Portfolio', // Reference name for our project
       type: 'umd' // Type of library
     }
+  },
+
+  resolve: {
+    extensions: ['.js', '.jsx']
   },
 
   module: {
